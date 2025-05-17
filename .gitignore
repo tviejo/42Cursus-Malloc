@@ -1,27 +1,11 @@
-# Compiled files
+# Build artifacts
 *.o
-*.so
-*.a
-*.out
+*.obj
 *.exe
-
-# Object directories
-obj/
-objs/
-
-# Build directories
-build/
-bin/
-
-# IDE specific files
-.vscode/
-.idea/
-*.swp
-*~
-
-# OS specific files
-.DS_Store
-Thumbs.db
+*.out
+*.a
+*.so
+*.dylib
 
 # Debug files
 *.dSYM/
@@ -29,6 +13,43 @@ Thumbs.db
 *.idb
 *.pdb
 
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Compiled Object files
+*.slo
+*.lo
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.def
+*.exp
+
+# Executables
+*.exe
+*.out
+*.app
+
 # Temporary files
 *.log
-*.tmp 
+*.tmp
+*.temp
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
