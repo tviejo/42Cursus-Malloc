@@ -1,3 +1,6 @@
 [submodule "libft"]
 	path = libft
 	url = https://github.com/tviejo/42Libft-Enhanced.git
+[submodule "42Libft-Enhanced"]
+	path = 42Libft-Enhanced
+	url = git@github.com:tviejo/42Libft-Enhanced.git
